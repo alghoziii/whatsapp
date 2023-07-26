@@ -87,19 +87,9 @@ const Home = ({ countryCodes }: { countryCodes: Array<CountryCodeProps> }) => {
           <h1>WhatsApp Helper</h1>
 
           <h4>
-            A web app to save your time to directly chat without saving the
-            phone number.
+            web untuk menghemat waktu Anda untuk mengobrol langsung tanpa
+            menyimpan nomor telepon.
           </h4>
-
-          <div className="space-y-0.5">
-            <p className="text-sm font-semibold underline">
-              This site does not collect any personal information.
-            </p>
-
-            <p className="text-xs">
-              You can check the source code by yourself.
-            </p>
-          </div>
         </section>
 
         <section className="mx-auto my-10 max-w-lg space-y-2 px-4 md:px-0">
