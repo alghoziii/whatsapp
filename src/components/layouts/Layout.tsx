@@ -1,6 +1,5 @@
 import React from "react";
 
-import FooterComponent from "@/components/layouts/FooterComponent";
 import HeaderComponent from "@/components/layouts/HeaderComponent";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
@@ -8,7 +7,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <>
       <HeaderComponent />
       {children}
-      <FooterComponent />
     </>
   );
 };
